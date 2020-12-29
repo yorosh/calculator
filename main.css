@@ -1,0 +1,19 @@
+.content-width{
+  width: 500px;
+}
+.content-width input{
+  width: 100%;
+}
+.push{
+  width:calc(23%);
+  margin: 2px;
+  height: 40px;
+
+}
+.push.active{
+  border:solid  1px blue;;
+  transition: 0.2;
+}
+.half{
+  width: 48%;
+}

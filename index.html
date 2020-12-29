@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>計算機</title>
+    </head>
+
+    <body>
+    <h3>電卓</h3>
+    <div class="content-width">
+      <input class="" type="text">
+      <br>      
+      <button class="push"  onclick="number('7')">7</button>
+      <button class="push"  onclick="number('8')">8</button>
+      <button class="push"  onclick="number('9')">9</button>
+      <button class="push"  onclick="number('+')">+</button>
+    
+      <button class="push"  onclick="number('4')">4</button>
+      <button class="push"  onclick="number('5')">5</button>
+      <button class="push"  onclick="number('6')">6</button>
+      <button class="push"  onclick="number('-')">-</button>
+     
+      <button class="push"  onclick="number('1')">1</button>
+      <button class="push"  onclick="number('2')">2</button>
+      <button class="push"  onclick="number('3')">3</button>
+      <button class="push"  onclick="number('*')">*</button> 
+     
+      <button class="push"  onclick="number('0')">0</button>
+      <button class="push"  onclick="number('00')">00</button>
+      <button class="push"  onclick="number('.')">.</button>
+      <button class="push"  onclick="number('/')">/</button>
+      
+      <button class="push half"  onclick="cl( ' ' )">C</button>
+      <button class="push half"  onclick="calc()" >=</button>
+    </div>  
+        <script src="main.js"></script>
+</html>
